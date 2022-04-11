@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">capacitor-template-remix-ts</string>
+    <string name="title_activity_main">capacitor-template-remix-ts</string>
+    <string name="package_name">com.example.remixts.app</string>
+    <string name="custom_url_scheme">com.example.remixts.app</string>
+</resources>

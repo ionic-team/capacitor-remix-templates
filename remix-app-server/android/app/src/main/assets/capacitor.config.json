@@ -1,0 +1,13 @@
+{
+	"appId": "com.example.remix.app",
+	"appName": "capacitor-template-remix",
+	"webDir": "public/build",
+	"bundledWebRuntime": false,
+	"server": {
+		"url": "http://localhost:3000",
+		"cleartext": true,
+		"allowNavigation": [
+			"*"
+		]
+	}
+}
