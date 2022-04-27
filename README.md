@@ -22,6 +22,9 @@ npm run build
 npx cap run android
 ```
 
+#### Setting your server.url variable
+Remix is a full-stack framework. Meaning that your application needs a backend server to properly run your Remix app. When testing your application locally, you'll need to set your `server.url` variable to a currently running server. You can start a remix dev server with `npm start` and then run `npx cap run <platform>` on a separate process to start your Capacitor application. If your backend server is not running, your Capacitor Remix app will not work properly. When deploying your application to the App Store, be sure to set your `server.url` variable to a hosted server and not the default `http://localhost` value.
+
 _note: The Capacitor + Remix dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`. This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. The `pnpn-lock.yaml` file can be safely be removed once you clone a template if you would like to use another package manager like `npm` or `yarn`._
 
 ### Deploying to App Stores
